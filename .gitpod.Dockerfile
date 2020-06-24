@@ -6,5 +6,5 @@ FROM gitpod/workspace-full
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
-RUN apt-get update
-RUN apt-get install snapd
+RUN sudo apt-get update
+RUN brew install kotlin
